@@ -1,0 +1,7 @@
+Ventaja de usar defer
+Es una buena práctica porque:
+
+Te asegura que el Unlock() siempre se va a ejecutar, aunque ocurra un error o un return anticipado.
+
+Hace el código más limpio y menos propenso a errores como olvidarse de desbloquear el mutex.
+
